@@ -11,4 +11,9 @@ function getComputerChoice() {
     }
 }
 
-console.log(getComputerChoice());
+function getHumanChoice(){
+    prompt("Choose your weapon");
+}
+
+var humanScore;
+var computerScore;
