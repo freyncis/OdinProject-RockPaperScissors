@@ -12,15 +12,9 @@ function getComputerChoice() {
 }
 
 function getHumanChoice(){
-    prompt("Choose your weapon");
+    let humanChoice = prompt("Choose your weapon");
 }
 
-var humanScore = 0;
-var computerScore = 0;
-
-function playRound(humanChoice){
-    let humanChoice = getHumanChoice.toLowerCase();
-    return humanChoice;
+function playRound(humanChoice, computerChoice){
+    
 }
-
-console.log(playRound());
